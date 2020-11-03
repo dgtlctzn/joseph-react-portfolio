@@ -1,0 +1,15 @@
+a {
+    padding-right: 20px;
+    /* font-size: 20px; */
+}
+
+ul {
+    font-style: italic;
+    list-style: square;
+}
+
+.fab {
+    font-size: 100px;
+    opacity: 20%;
+    float: right;
+}
