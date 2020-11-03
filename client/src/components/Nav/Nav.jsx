@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <Navbar
+      className="blue lighten-4"
       alignLinks="left"
       brand={
         <Link className="brand-logo right" to="/">
