@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Icon, NavItem } from "react-materialize";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -8,7 +8,7 @@ const Nav = () => {
       alignLinks="left"
       brand={
         <Link className="brand-logo right" to="/">
-          Logo
+          Joseph Perry || Portfolio
         </Link>
       }
       id="mobile-nav"
@@ -25,8 +25,12 @@ const Nav = () => {
         preventScrolling: true,
       }}
     >
-      <NavItem onClick={function noRefCheck() {}}>Getting started</NavItem>
-      <NavItem href="components.html">Components</NavItem>
+      {/* <NavItem onClick={function noRefCheck() {}}>Getting started</NavItem>
+      <NavItem href="components.html">Components</NavItem> */}
+      {/* <NavItem> */}
+      <Link to="/">About</Link>
+      <Link to="/projects">Projects</Link>
+      <Link to="/contact">Contact</Link>
     </Navbar>
   );
 };
