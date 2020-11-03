@@ -9,11 +9,9 @@ const Projects = () => {
     <div className="container">
       <h1>Project page</h1>
       <Row>
-        <Col m={12} s={12} className="cards-container">
-            {projects.map((project) => (
-            <ProjectCard name={project} />
-          ))}
-        </Col>
+        {projects.map((project) => (
+          <ProjectCard name={project} />
+        ))}
       </Row>
     </div>
   );
