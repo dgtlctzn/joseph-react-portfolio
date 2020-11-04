@@ -30,7 +30,7 @@ const Contact = () => {
             <IconLink {...contact} />
           ))}
           <div className="col s12 m3">
-          <h5 className="logo-name">Phone</h5>
+            <h5 className="logo-name">Phone</h5>
             <Modal
               actions={[
                 <Button flat modal="close" node="button" waves="green">
@@ -55,11 +55,15 @@ const Contact = () => {
                 preventScrolling: true,
                 startingTop: "4%",
               }}
-            trigger={<img className="icon-logo" src="./img/phone-logo.png" alt="phone" />}
+              trigger={
+                <img
+                  className="icon-logo"
+                  src="./img/phone-logo.png"
+                  alt="phone"
+                />
+              }
             >
-              <p>
-                (404) 358-3607
-              </p>
+              <p>(404) 358-3607</p>
             </Modal>
           </div>
         </div>

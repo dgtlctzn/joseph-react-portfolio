@@ -3,6 +3,7 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import projects from "../../json/projects.json";
 import "./Projects.css"
 
+
 const Projects = () => {
   return (
     <div className="container">
@@ -14,6 +15,7 @@ const Projects = () => {
         ))}
       </div>
     </div>
+
   );
 };
 

@@ -3,6 +3,7 @@ import About from "./containers/About/About";
 import Projects from "./containers/Projects/Projects";
 import Contact from "./containers/Contact/Contact";
 import Nav from "./components/Nav/Nav"
+import Foot from "./components/Foot/Foot"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
+      <Foot/>
     </Router>
   );
 }
