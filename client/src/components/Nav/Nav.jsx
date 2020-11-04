@@ -9,7 +9,7 @@ const Nav = () => {
       alignLinks="left"
       brand={
         <Link className="brand-logo right" to="/">
-          Joseph Perry || Portfolio
+          Joseph Perry | Portfolio
         </Link>
       }
       id="mobile-nav"

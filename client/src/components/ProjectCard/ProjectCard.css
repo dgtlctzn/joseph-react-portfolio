@@ -8,8 +8,13 @@ ul {
     list-style: square;
 }
 
-.fab {
-    font-size: 100px;
-    opacity: 20%;
+.icon {
+    width: 100px;
+    filter: grayscale(100%);
+    opacity: 30%;
     float: right;
+}
+
+.card {
+    padding: 10px;
 }
