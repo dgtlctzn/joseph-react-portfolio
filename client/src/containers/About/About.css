@@ -1,0 +1,7 @@
+body {
+    background-image: url(./img/IMG_3503.jpeg);
+    background-size: cover;
+    min-height: 100vh
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+}
