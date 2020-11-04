@@ -13,8 +13,8 @@ const ProjectCard = ({ name, link, gh_link, image, icon, text, tech }) => {
             <p>{text}</p>
             <img className="icon" src={icon} alt={name}/>
             <ul>
-              {tech.map((item) => (
-                <li>{item}</li>
+              {tech.map((item, index) => (
+                <li key={index}>{item}</li>
               ))}
             </ul>
             <p>

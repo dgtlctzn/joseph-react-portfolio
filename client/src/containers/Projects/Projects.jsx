@@ -1,27 +1,18 @@
 import React from "react";
-import { Row } from "react-materialize";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import projects from "../../json/projects.json";
+import "./Projects.css"
 
 const Projects = () => {
   return (
     <div className="container">
-      <h1>Project page</h1>
-      <Row>
-        {/* maps over json array of objects*/}
-        {projects.map(({ id, name, link, gh_link, image, icon, text, tech }) => (
-          <ProjectCard
-            key={id}
-            name={name}
-            link={link}
-            gh_link={gh_link}
-            image={image}
-            icon={icon}
-            text={text}
-            tech={tech}
-          />
+      <div className="row">
+      <h3 className="center" id="projects">Projects</h3>
+        {/* maps over json array of project details and images*/}
+        {projects.map((project) => (
+          <ProjectCard key={project.id} {...project} />
         ))}
-      </Row>
+      </div>
     </div>
   );
 };
