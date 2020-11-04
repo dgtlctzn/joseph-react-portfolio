@@ -1,0 +1,10 @@
+#contacts {
+    margin-top: 100px;
+    background-color: #37474f;
+    border-radius: 20px;
+    color: white;
+}
+
+.logo-name {
+    padding-left: 20px;
+}
