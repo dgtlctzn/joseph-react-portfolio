@@ -3,14 +3,15 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="container">
-      <h3>About Me</h3>
+    <div id="about-me" className="container">
       <div className="row">
         <div className="col s12 m4">
-          <img src="" alt="" />
+          <img id="bike" src="./img/me-on-a-bike.jpg" alt="" />
         </div>
-        <div className="col s12 m6">
-          <p>
+        <div className="col s12 m7">
+          <h3 className="center">About Me</h3>
+          <div id="break"></div>
+          <p className="about">
             I am currently a Georgia Tech bootcamp student based in Atlanta, GA.
             I am studying full stack development and specialize in React,
             Node.js, Express, MongoDB, MySql, jQuery, Pandas, and Jupyter

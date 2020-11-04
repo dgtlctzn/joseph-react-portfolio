@@ -2,6 +2,27 @@ body {
     background-image: url(./img/IMG_3503.jpeg);
     background-size: cover;
     min-height: 100vh
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
+}
+
+#bike {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    padding: 30px;
+}
+
+#about-me {
+    margin-top: 100px;
+    background-color: #37474f;
+    border-radius: 20px;
+    color: white;
+}
+
+#break {
+    height: 1px;
+    background-color: white;
+}
+
+.about {
+    padding: 20px;
 }
