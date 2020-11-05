@@ -11,7 +11,7 @@ ul {
 .icon {
     width: 100px;
     filter: grayscale(100%);
-    opacity: 30%;
+    opacity: 0.4;
     float: right;
 }
 
