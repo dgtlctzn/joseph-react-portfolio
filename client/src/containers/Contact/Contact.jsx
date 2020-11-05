@@ -20,52 +20,57 @@ const Contact = () => {
       image: "./img/email-logo.png",
       alt: "Email",
     },
+    {
+      link: "https://www.linkedin.com/in/joseph-perry-6650653a/",
+      image: "./img/linkedin-logo.png",
+      alt: "LinkedIn",
+    },
   ];
 
   return (
     <div className="container">
-      <div className="container">
-        <div className="row" id="contacts">
-          {contacts.map((contact) => (
-            <IconLink {...contact} />
-          ))}
-          <div className="col s12 m3">
-            <h5 className="logo-name">Phone</h5>
-            <Modal
-              actions={[
-                <Button flat modal="close" node="button" waves="green">
-                  Close
-                </Button>,
-              ]}
-              bottomSheet={false}
-              fixedFooter={false}
-              header="Cell Number"
-              id="Modal-0"
-              open={false}
-              options={{
-                dismissible: true,
-                endingTop: "10%",
-                inDuration: 250,
-                onCloseEnd: null,
-                onCloseStart: null,
-                onOpenEnd: null,
-                onOpenStart: null,
-                opacity: 0.5,
-                outDuration: 250,
-                preventScrolling: true,
-                startingTop: "4%",
-              }}
-              trigger={
-                <img
-                  className="icon-logo"
-                  src="./img/phone-logo.png"
-                  alt="phone"
-                />
-              }
-            >
-              <p>(404) 358-3607</p>
-            </Modal>
-          </div>
+      <div className="row" >
+        <div id="contacts" className="col offset-m1">
+        {contacts.map((contact) => (
+          <IconLink key={contact.alt} {...contact} />
+        ))}
+        <div className="col s12 m2">
+          <h5 className="logo-name">Phone</h5>
+          <Modal
+            actions={[
+              <Button flat modal="close" node="button" waves="green">
+                Close
+              </Button>,
+            ]}
+            bottomSheet={false}
+            fixedFooter={false}
+            header="Cell Number"
+            id="Modal-0"
+            open={false}
+            options={{
+              dismissible: true,
+              endingTop: "10%",
+              inDuration: 250,
+              onCloseEnd: null,
+              onCloseStart: null,
+              onOpenEnd: null,
+              onOpenStart: null,
+              opacity: 0.5,
+              outDuration: 250,
+              preventScrolling: true,
+              startingTop: "4%",
+            }}
+            trigger={
+              <img
+                className="icon-logo"
+                src="./img/phone-logo.png"
+                alt="phone"
+              />
+            }
+          >
+            <p>(404) 358-3607</p>
+          </Modal>
+        </div>
         </div>
       </div>
     </div>
