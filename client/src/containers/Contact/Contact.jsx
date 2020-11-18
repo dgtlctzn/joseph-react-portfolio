@@ -11,7 +11,7 @@ const Contact = () => {
       alt: "GitHub",
     },
     {
-      link: "./Coding-Resume-JRP.pdf",
+      link: "./JosephPerryIVResume.pdf",
       image: "./img/resume-logo.png",
       alt: "Resume",
     },
