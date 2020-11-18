@@ -1,16 +1,26 @@
 [
     {
         "id": 1,
+        "name": "Ciphr",
+        "link": "https://ciphr.herokuapp.com/",
+        "gh_link": "https://github.com/dgtlctzn/ciphr",
+        "image": "./img/ciphr-project.png",
+        "icon": "./img/react-logo.png",
+        "text": "A platform to share and solve coding algorithms featuring a browser Repl.",
+        "tech": ["React", "Express", "MongoDB", "Express"]
+    },
+    {
+        "id": 2,
         "name": "Bandwich",
         "link": "https://bandwich-app.herokuapp.com/",
         "gh_link": "https://github.com/dgtlctzn/bandwich",
         "image": "./img/bandwich.png",
         "icon": "./img/node-logo.png",
         "text": "A simple browser based 4-track recording interface built with collaboration in mind.",
-        "tech": ["Node.js", "jQuery", "CRUD Routes", "Sequelize"]
+        "tech": ["Node.js", "jQuery", "Handlebars", "Sequelize"]
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Covid Rate",
         "link": "",
         "gh_link": "https://github.com/dgtlctzn/covid_rate",
@@ -20,7 +30,7 @@
         "tech": ["Python3", "Jupyter Notebooks", "Pandas"]
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "personaGen",
         "link": "https://dgtlctzn.github.io/personaGen/",
         "gh_link": "https://github.com/dgtlctzn/personaGen",
@@ -30,7 +40,7 @@
         "tech": ["JavaScript", "jQuery", "APIs"]
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Twitter Bot",
         "link": "https://twitter.com/KarenVsManager",
         "gh_link": "https://github.com/dgtlctzn/Karen_bot",
@@ -40,7 +50,7 @@
         "tech": ["Python3", "Markovify text generation", "Twitter API"]
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Weather Dash",
         "link": "https://dgtlctzn.github.io/weather-dashboard/",
         "gh_link": "https://github.com/dgtlctzn/weather-dashboard",
@@ -50,7 +60,7 @@
         "tech": ["APIs", "JavaScript"]
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "E.M.S.",
         "link": "",
         "gh_link": "https://github.com/dgtlctzn/employee-tracker",
