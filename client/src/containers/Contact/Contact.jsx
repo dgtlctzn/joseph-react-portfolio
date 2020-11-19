@@ -21,7 +21,7 @@ const Contact = () => {
       alt: "Email",
     },
     {
-      link: "https://www.linkedin.com/in/joseph-perry-6650653a/",
+      link: "https://www.linkedin.com/in/joseph-perry-iv/",
       image: "./img/linkedin-logo.png",
       alt: "LinkedIn",
     },

@@ -8,11 +8,12 @@ body {
   width: 100%;
   height: auto;
   border-radius: 100%;
+  margin-top: 20px;
   padding: 30px;
 }
 
 #about-me {
-  margin-top: 100px;
+  margin-top: 60px;
   background-color: #37474f;
   border-radius: 20px;
   color: white;
@@ -24,5 +25,5 @@ body {
 }
 
 .about {
-  padding: 20px;
+  margin-top: 30px;
 }
